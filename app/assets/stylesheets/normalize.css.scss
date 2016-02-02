@@ -95,13 +95,6 @@ a:hover {
 /* Text-level semantics
    ========================================================================== */
 
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
-
-abbr[title] {
-  border-bottom: 1px dotted;
-}
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
@@ -326,7 +319,8 @@ input {
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  padding-left: 0.1rem !important;
+
 }
 
 /**
