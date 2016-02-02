@@ -1,1 +1,31 @@
-%h1 This is a welcome placeholder
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Tu agenda personal. Nunca volveras a olvidar alguna idea.
+		%button= link_to "¡Registrate!", new_user_registration_path
+#testimonial
+	.wrapper
+		%p.quote "La mejor aplicacion para guardar tus notas"
+		%p.name - Emmanuel Deossa H
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notas
+				%p Muy lejos, más allá de las montañas de palabras, alejados de los países de las vocales y las consonantes, viven los textos simulados..
+
+			.callout
+				%h2 Cohetes
+				%p Un riachuelo llamado Pons fluye por su pueblo y los abastece con las normas necesarias. Pero un buen día, una pequeña línea de texto simulado, llamada Lorem Ipsum.
+
+			.callout
+				%h2 Luces
+				%p Viven aislados en casas de letras, en la costa de la semántica, un gran océano de lenguas. Empacó sus siete versales, enfundó su inicial y se puso en camino.  
+#bottom_cta
+	.wrapper
+		%h2 Para disfrutar!
+		%p Quiero que te registres ... Si no lo haces. ¡Te encontraré!
+		%button= link_to "Clickeame!", new_user_registration_path
+
+%footer
+	%p &copy; EmmanuelSW
